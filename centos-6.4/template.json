@@ -43,7 +43,7 @@
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 40520,
+      "disk_size": 4096,
       "guest_os_type": "RedHat_64",
       "http_directory": "http",
       "iso_checksum": "4a5fa01c81cc300f4729136e28ebe600",
@@ -67,7 +67,7 @@
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
-      "disk_size": 40520,
+      "disk_size": 4096,
       "guest_os_type": "linux",
       "http_directory": "http",
       "iso_checksum": "4a5fa01c81cc300f4729136e28ebe600",
